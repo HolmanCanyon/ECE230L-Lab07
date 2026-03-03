@@ -7,9 +7,9 @@ module top(
       .A(sw[0]),
       .B(sw[1]),
       .Y(led[0]),
-      .Borrow(led[1])
-        
+      .Borrow(led[1]) 
     );
   
 endmodule
+
 
