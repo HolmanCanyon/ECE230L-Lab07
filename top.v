@@ -14,8 +14,15 @@ module top(
     .sw(sw[9:2]),
     .led(led[13:6])
   );
+
+  ones_compliment ones_compliment(
+    .A(sw[5:2]),
+    .B(sw[6:9]),
+    .Y(led[5:2])
+  );
   
 endmodule
+
 
 
 
