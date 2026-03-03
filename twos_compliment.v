@@ -25,16 +25,17 @@ module twos_compliment(
     full_adder fa7 (.A(inverted[7]), .B(1'b0), .Cin(c6),   .Y(result[7]), .Cout(c7));
 
     //assign leds to results
-    assign Y[6]  = result[0];
-    assign Y[7]  = result[1];
-    assign Y[8]  = result[2];
-    assign Y[9]  = result[3];
-    assign Y[10] = result[4];
-    assign Y[11] = result[5];
-    assign Y[12] = result[6];
-    assign Y[13] = result[7];
+    assign Y[0]  = result[0];
+    assign Y[1]  = result[1];
+    assign Y[2]  = result[2];
+    assign Y[3]  = result[3];
+    assign Y[4] = result[4];
+    assign Y[5] = result[5];
+    assign Y[6] = result[6];
+    assign Y[7] = result[7];
 
 endmodule
+
 
 
 
