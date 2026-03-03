@@ -1,10 +1,11 @@
 module half_sub(
   input A,B,
   output Y,
-  output Carry
+  output Borrow
 );
 
   assign Y = (~A & B) | (A & ~B);
-  assign Carry = ~A & B;
+  assign Borrow = ~A & B;
 
 endmodule
+
