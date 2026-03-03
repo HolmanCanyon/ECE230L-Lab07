@@ -14,7 +14,7 @@ In this lab you've learned the basics of number theory as it relates to subtract
 ## Names
 Canyon Holman, Cody Toone
 ## Summary
-
+We used adders and 1's and 2's complement to create and understand subtraction. We created a 1-bit half subtractor which creates a result and a borrow bit. Then we created an adder which uses 1's complement and an end-around carry to allow subtraction and negative numbers, then we built a 2's compliment converter. 
 ## Lab Questions
 
 ### 1 - Explain the differences between our Half Adder from last lab and the Half Subtractor from this lab.
