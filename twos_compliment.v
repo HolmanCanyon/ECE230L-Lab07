@@ -3,6 +3,7 @@ module twos_compliment(
     output [7:0] Y
 );
     wire [7:0] num;
+    assign num = A[7:0];
 
     //invert input wires
     wire [7:0] inverted;
@@ -34,6 +35,7 @@ module twos_compliment(
     assign Y[13] = result[7];
 
 endmodule
+
 
 
 
