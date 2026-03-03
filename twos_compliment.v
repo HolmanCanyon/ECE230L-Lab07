@@ -34,4 +34,4 @@ module twos_compliment(
     assign Y[6] = result[6];
     assign Y[7] = result[7];
 
-endmodule
+endmodule;
