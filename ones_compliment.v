@@ -3,7 +3,7 @@ module ones_compliment_adder (
   output [3:0] Y
 );
   //wires for first addition
-  wire [3:0] fa
+  wire [3:0] fa;
   //wires for first carry
   wire [2:0] c;
   //wires for second carry
@@ -79,3 +79,4 @@ module ones_compliment_adder (
   
 
 endmodule;
+
