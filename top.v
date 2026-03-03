@@ -1,6 +1,6 @@
 module top(
-  input [1:0]sw,
-  output [1:0]led
+  input [9:0]sw,
+  output [13:0]led
 );
     
     half_sub half_sub(
@@ -11,5 +11,6 @@ module top(
     );
   
 endmodule
+
 
 
