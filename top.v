@@ -17,11 +17,12 @@ module top(
 
   ones_compliment_adder ones_compliment_adder(
     .A(sw[5:2]),
-    .B(sw[6:9]),
+    .B(sw[9:6]),
     .Y(led[5:2])
   );
   
 endmodule
+
 
 
 
