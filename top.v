@@ -10,9 +10,13 @@ module top(
       .Borrow(led[1]) 
     );
 
-  twos_compliment twos_compliment();
+  twos_compliment twos_compliment(
+    .sw(sw[9:2]),
+    .led(led[13:6])
+  );
   
 endmodule
+
 
 
 
