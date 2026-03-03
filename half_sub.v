@@ -8,5 +8,3 @@ module half_sub(
   assign Borrow = ~A & B;
 
 endmodule
-
-
