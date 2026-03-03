@@ -1,6 +1,6 @@
 module twos_compliment(
-    input  [9:0] sw,
-    output [13:0] led
+    input  [7:0] A,
+    output [7:0] Y
 );
 
     //original swwitches assigned to wires
@@ -37,3 +37,4 @@ module twos_compliment(
     assign led[13] = result[7];
 
 endmodule
+
